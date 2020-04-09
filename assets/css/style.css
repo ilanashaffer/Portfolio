@@ -1,0 +1,88 @@
+.container {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.navbar {
+    padding: 0px;
+    background-color: #ffffff;
+    border-bottom: 1.2px solid #000000;
+}
+
+#h1 {
+    color: #000000;
+    padding: 15px 0 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.80em;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: #000000;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.45em;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.95em;
+    color: #000000;
+    line-height: 1.6;
+}
+
+#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4 {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 45px;
+}
+
+#portfolio-5 {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#portfolio-1-text, #portfolio-2-text, #portfolio-3-text, #portfolio-4-text, #portfolio-5-text {
+    position: absolute;
+    background-color: #cccccc;
+    width: 275px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 15px;
+}
+
+#portfolio-1 a, #portfolio-2 a, #portfolio-3 a, #portfolio-4 a, #portfolio-5 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.15em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0 5px 0;
+    color: #000000;
+    background-color: #ffffff;
+    border-top: 1px solid #000000;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.7em;
+}
